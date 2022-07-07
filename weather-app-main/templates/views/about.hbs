@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script src="/js/script.js" defer></script>
+    <title>Mausam</title>
+  </head>
+  <body>
+    <header>
+      {{>header}}
+          
+      <div class="about">
+          <p>This application uses two APIs to get real time weather data of a location.</p>
+          <p>1. <a href="https://openweathermap.org">openweathermap</a> - to get realtime weather forecasting by feeding latitude and longitude of a location.</p>
+          <p>2. <a href="https://www.mapbox.com/">mapbox</a> - to get latitude and longitude of a location(Forward Geocoding).</p>
+      </>
+    </header>
+
+{{>footer}}
+  </body>
+</html>
